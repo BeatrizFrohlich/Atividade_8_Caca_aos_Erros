@@ -4,8 +4,9 @@ $servidor = "localhost";
 $usuario = "root";
 $senha = "root";
 $banco = "erro_01";
+$porta    = 6608; 
 
-$conn = new mysqli($servidor, $usuario, $senha, $banco);
+$conn = new mysqli($servidor, $usuario, $senha, $banco, $porta);
 
 if ($conn->connect_error) {
     die("Erro na conexão com o banco de dados: " . $conn->connect_error);

@@ -121,10 +121,9 @@ $stmt->close();
 
     <br>
 
-    <a href="index.php"> Voltar para os usuários</a>
-
+    <a href="buscar_usuario.php"> Voltar para os usuários</a>
+    <a href="index.php">Voltar para a página principal</a>
 </body>
-
 </html>
 
 <?php

@@ -46,7 +46,8 @@ if (isset($_POST['cadastrar'])) {
         <button type="submit" name="cadastrar"> Cadastrar </button>
 
     </form>
-
+    
+    <a href="index.php">Voltar para a página principal</a>
 </body>
 
 </html>
